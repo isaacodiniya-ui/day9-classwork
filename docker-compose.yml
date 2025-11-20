@@ -8,9 +8,9 @@ services:
   app2:
     build: .
     environment:
-     - APP_NAME=App2
+      - APP_NAME=App2
     ports:
-    - "3002:3000"
+      - "3002:3000"
   app3:
     build: . 
     environment:
